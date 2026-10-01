@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Conformité exportation : l'app n'utilise que le chiffrement standard
+	     d'iOS (HTTPS) → exemption. Évite la question « Documents sur le
+	     chiffrement » à chaque upload TestFlight. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<!-- Fichier créé par Xcode lors de l'ajout du URL Type, désormais LIVRÉ dans
+	     chaque zip pour survivre aux remplacements de dossier. -->
+	<!-- Localisations embarquées : iOS affiche le sélecteur de langue par-app
+	     dans Réglages > TapReply dès qu'il y en a plusieurs. -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>fr</string>
+		<string>en</string>
+		<string>es</string>
+		<string>de</string>
+		<string>it</string>
+		<string>pt-BR</string>
+	</array>
+	<!-- Police de la DA « Wellness Chaleureux » — les 4 graisses embarquées.
+	     PostScript names vérifiés : HankenGrotesk-Regular/Medium/SemiBold/Bold. -->
+	<key>UIAppFonts</key>
+	<array>
+		<string>HankenGrotesk-Regular.ttf</string>
+		<string>HankenGrotesk-Medium.ttf</string>
+		<string>HankenGrotesk-SemiBold.ttf</string>
+		<string>HankenGrotesk-Bold.ttf</string>
+		<string>Figtree-Regular.ttf</string>
+		<string>Figtree-Medium.ttf</string>
+		<string>Figtree-SemiBold.ttf</string>
+		<string>Figtree-Bold.ttf</string>
+		<string>Figtree-ExtraBold.ttf</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.pierremadi.tapreply</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tapreply</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "PhoneV2Front.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

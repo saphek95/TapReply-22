@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "PhoneV2Frame.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
